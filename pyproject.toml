@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Best-effort text recovery from damaged Microsoft Word 97-2003 binary .doc files"
 readme = "README.md"
 requires-python = ">=3.10"
-license = {text = "MIT"}
+license = {text = "0BSD"}
 authors = [
   {name = "legacy-doc-recover contributors"}
 ]
@@ -16,7 +16,7 @@ keywords = ["doc", "word", "recovery", "ole", "cfb", "forensics"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Environment :: Console",
-  "License :: OSI Approved :: MIT License",
+  "License :: OSI Approved :: BSD License",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
@@ -39,4 +39,3 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
-

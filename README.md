@@ -197,3 +197,7 @@ The most valuable contribution at this stage is **additional damaged-file test c
 5. a sanitised/minimal fixture where redistribution is legally and ethically safe.
 
 Do not submit confidential documents.
+
+## License
+
+This project is licensed under the [Zero-Clause BSD licence (0BSD)](LICENSE).

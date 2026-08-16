@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Recovery outputs
+*.recovered.txt
+*.recovery.json
+output/*
+!output/README.md
+
+# Real damaged documents can contain private material. Never commit them by default.
+*.doc
+*.DOC
+input/*
+!input/README.md
+
+# Local implementation handoff; never publish these directories.
+gates/
+reference/
+slices/
+examples/
+PROJECT_STATE.md
